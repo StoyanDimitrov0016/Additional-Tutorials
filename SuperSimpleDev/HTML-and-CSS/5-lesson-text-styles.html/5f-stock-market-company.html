@@ -1,0 +1,34 @@
+<style>
+  *:not(#currency, #changed-percentages) {
+    margin: 0px;
+    text-align: left;
+    margin-left: 4px;
+  }
+  #current-price {
+    color: black;
+    font-size: 35px;
+    font-family: Arial;
+    margin-bottom: 8px;
+  }
+  #currency {
+    color: gray;
+    font-size: 22px;
+  }
+  #daily-fluctuation {
+    color: green;
+    font-size: 20px;
+    margin-bottom: 6px;
+  }
+  #price-after-hours {
+    color: rgb(101, 95, 95);
+    font-size: 16px;
+  }
+  #changed-percentages {
+    color: red;
+  }
+</style>
+<p id="current-price">1,049.61 <span id="currency">USD</span></p>
+<p id="daily-fluctuation">+18.05 (1.75%) today</p>
+<p id="price-after-hours">
+  After hours 1048,00 <span id="changed-percentages">-1.61 (0.15%)</span>
+</p>
